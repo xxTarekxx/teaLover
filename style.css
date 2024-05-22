@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.6;
+}
+
+.container {
+    height: 69px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid seashell;
+}
+
+.box {
+    /* opacity: 0.9; */
+    height: 69px;
+    width: 130px;
+    margin: 0px 10px 0px 0px;
+    align-content: center;
+    text-align: center;
+    text-decoration: underline;
+    color: seashell;
+}
+
+#logo {
+    margin: 0px auto 0px 0px;
+    align-content: center;
+}
+
+#logo>img {
+    max-height: 50px;
+    padding: 10px;
+}
+
+.landingbanner {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1454678993613-d4fc4bd5f496?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.missionstatment {
+    background-color: black;
+    min-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.teaofthemonth {
+    display: flex;
+    flex-flow: wrap row;
+    width: 1000px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.teaofthemonth>div>img {
+    margin: auto 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.teaofthemonth>div>h4 {
+    margin-top: 10px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-image: url('./resources/images/img-locations-background.jpg');
+}
+
+.locationheader {
+    margin-bottom: 0px;
+}
+
+
+.locationthumbnails {
+    display: flex;
+}
+
+.downtown {
+    margin-left: auto;
+    margin-right: 20px;
+    background-image: url('https://images.unsplash.com/photo-1578234467412-b0bbdb4c2283?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    background-blend-mode: darken;
+
+}
+
+.lakeworth {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url('https://images.unsplash.com/photo-1602087564540-43a650cce9c9?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+}
+
+.dallas {
+    margin-left: 20px;
+    margin-right: auto;
+    background-image: url('https://images.unsplash.com/photo-1580536793208-117fdb20ffc1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+}
+
+.footer {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footertext {
+    margin: auto
+}
+
+.copyright {
+    margin-left: 20px;
+}
